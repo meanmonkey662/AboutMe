@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kkoc6943.aboutme.runningPageActivity"
+    android:background="@drawable/olympicstracklanes"
+    android:id="@+id/RelativeLayout">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rock Climbing"
+        android:id="@+id/rockclimbingButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Running I run track and cross-country.  Although I like track more. I run the 400m 800m and 1600m in track.. Nobody really knows why they run but there’s a great sense of satisfaction and accomplishment you get when you cross the finish that makes it worth it."
+        android:id="@+id/textView"
+        android:textColor="#00ff37"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="51dp" />
+</RelativeLayout>
