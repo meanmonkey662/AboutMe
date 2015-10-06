@@ -8,23 +8,20 @@ import android.widget.Button;
 import android.view.View;
 import android.content.Intent;
 
-public class runningPageActivity extends AppCompatActivity
-{
-
-    private Button rockclimbingButton;
+public class LongboardingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_running_page);
-        rockclimbingButton = (Button) findViewById(R.id.rockclimbingButton);
-        setupListeners();
+        setContentView(R.layout.activity_longboarding);
+        BreakdancingButton = (Button) findViewById(R.id.BreakdancingButton);
+        setUpListeners();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_running_page, menu);
+        getMenuInflater().inflate(R.menu.menu_longboarding, menu);
         return true;
     }
 
@@ -41,19 +38,5 @@ public class runningPageActivity extends AppCompatActivity
         }
 
         return super.onOptionsItemSelected(item);
-    }
-    private void setupListeners()
-    {
-        rockclimbingButton.setOnClickListener(new View.OnClickListener()
-        {
-        @Override
-        public void onClick(View buttonView)
-        {
-
-            Intent myintent = new Intent(rockclimbingButton.getContext(), RockClimbingActivity.class);
-            startActivityForResult(myintent, 0);
-        }
-        });
-
     }
 }

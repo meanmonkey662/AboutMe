@@ -20,6 +20,18 @@
             android:name=".runningPageActivity"
             android:label="@string/title_activity_running_page" >
         </activity>
+        <activity
+            android:name=".RockClimbingActivity"
+            android:label="@string/title_activity_rock_climbing" >
+        </activity>
+        <activity
+            android:name=".LongboardingActivity"
+            android:label="@string/title_activity_longboarding" >
+        </activity>
+        <activity
+            android:name=".BreakdancingActivity"
+            android:label="@string/title_activity_breakdancing" >
+        </activity>
     </application>
 
 </manifest>

@@ -4,4 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_running_page">runningPageActivity</string>
+    <string name="title_activity_rock_climbing">Rock Climbing</string>
+    <string name="title_activity_longboarding">Longboarding</string>
+    <string name="title_activity_breakdancing">Breakdancing</string>
 </resources>
